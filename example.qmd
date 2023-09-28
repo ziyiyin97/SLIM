@@ -1,35 +1,16 @@
 ---
-title: "Critic-markdown Example"
+title: "SLIM Example"
 filters:
-  - critic-markup
+  - SLIM
 ---
 
-## Critic Markdown
+## SLIM
 
-This filter adds processing of critic markdown syntax. Below are examples of usage.
+This is a simple SLIM font extension to quarto. One only needs to put
 
-## Highlighting
+```
+filters:
+  - SLIM
+```
 
-`{==Highlighted text==}` {==Highlighted text==}
-
-`{== Highlighted text with a comment==}{>>First comment<<}` {== Highlighted text with a comment==}{>>First comment<<}
-
-`{>>Single comment <<}` {>>Single comment <<}
-
-
-## Addition
-
-`{++This is added text++}` {++This is added text++}
-
-`{++This is added text with some removed++}{-- removed--}` {++This is added text with some removed++}{-- removed--}
-
-
-## Deletion
-
-`{--This is removed text--}` {--This is removed text--}
-
-`{--This is removed text with some added--}{++added ++}` {--This is removed text with some added--}{++added ++}
-
-## Replacement
-
-`{~~This is original text~> this is the replacement~~}` {~~This is original text~> this is the replacement~~}
+on the `yml` region and everything should be formed correctely according to SLIM fonts.

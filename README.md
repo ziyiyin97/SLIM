@@ -1,17 +1,11 @@
-# Critic-markup Extension For Quarto
+## SLIM quarto extension
 
-This extension provide a filter for processing [critic markup](https://github.com/CriticMarkup/CriticMarkup-toolkit) syntax when rendering to html. The rendered html provide a flexible interface with
+This is a simple SLIM font extension to quarto. This extension was inspired by the [critic markup extension](https://github.com/mloubout/critic-markup) for [ScholarlyMarkdown](http://scholarlymarkdown.com/) available under [MIT license](https://github.com/mloubout/critic-markup/blob/main/LICENSE).
 
-- The markup document with changes highlighted
-- The original version
-- The updated version with the changes applied
-
-
-This extension was inspired by the critic markup processing for [ScholarlyMarkdown](http://scholarlymarkdown.com/) available under MIT license as well [ScholarlyMarkdown.git](https://github.com/slimgroup/ScholarlyMarkdown)
 ## Installing
 
 ```bash
-quarto add mloubout/critic-markup
+quarto add ziyiyin97/SLIM
 ```
 
 This will install the extension under the `_extensions` subdirectory.
@@ -25,12 +19,10 @@ To use this extension, simply add it to your header as a filter
 ---
 title: Markup example
 filters:
-  - critic-markup
+  - SLIM
 ---
 ```
 
 ## Example
 
 Here is a minimal example showing the critic markup syntax and its rendering: [example.qmd](example.qmd).
-
-This is the output of [example.qmd](https://mloubout.github.io/critic-markup/).
