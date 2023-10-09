@@ -24,13 +24,6 @@ st_e = '}'
 
 local scriptcode = [[
 
-<div id="criticnav">
-<ul>
-</ul>
-</div>
-
-<script type="text/javascript">
-</script>
 ]]
 
 function criticheader (meta)
